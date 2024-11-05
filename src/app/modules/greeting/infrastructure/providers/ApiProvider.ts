@@ -1,8 +1,8 @@
-import { Injectable, HttpService } from '@nestjs/common';
+import { Injectable } from "@nestjs/common";
 
 @Injectable()
 export class ApiProvider {
-  constructor(private readonly httpService: HttpService) {}
+  /*constructor(private readonly httpService: HttpService) {}
 
   async getGreetingFromApi(): Promise<string> {
     try {
@@ -13,5 +13,5 @@ export class ApiProvider {
     } catch (error) {
       throw new Error(`Error fetching greeting from API: ${error.message}`);
     }
-  }
+  }*/
 }

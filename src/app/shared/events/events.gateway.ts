@@ -1,5 +1,6 @@
-import { WebSocketGateway, WebSocketServer } from '@nestjs/websockets';
-import { Server } from 'socket.io';
+/*
+import { WebSocketGateway, WebSocketServer } from "@nestjs/websockets";
+import { Server } from "socket.io";
 
 @WebSocketGateway()
 export class EventsGateway {
@@ -9,4 +10,4 @@ export class EventsGateway {
   sendMessage(event: string, data: any) {
     this.server.emit(event, data);
   }
-}
+}*/

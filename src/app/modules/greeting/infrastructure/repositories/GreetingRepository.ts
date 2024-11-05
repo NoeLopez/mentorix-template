@@ -1,7 +1,7 @@
 import { Injectable } from "@nestjs/common";
 import { IGreetingRepository } from "../../domain/interfaces/IGreetingRepository.interface";
 import { Greeting } from "../../domain/models/Greeting";
-import { AppConfigService } from "../../../../config/config.service";
+import { AppConfigService } from "../../../../config/app-config.service";
 
 @Injectable()
 export class GreetingRepository implements IGreetingRepository {

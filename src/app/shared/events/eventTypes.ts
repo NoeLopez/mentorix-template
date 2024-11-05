@@ -1,3 +1,3 @@
 export const EVENT_TYPES = {
-  GREETING: 'greeting_event',
+  GREETING: "greeting_event"
 };

@@ -1,9 +1,9 @@
-import { Module } from '@nestjs/common';
+import { Module } from "@nestjs/common";
 import { PostgresService } from "./postgres.service";
-import { PostgresProvider } from "./postgres.provider";
 
 @Module({
-  providers: [PostgresProvider],
-  exports: [PostgresService],
+  providers: [PostgresService],
+  exports: [PostgresService]
 })
-export class PostgresModule {}
+export class PostgresModule {
+}
