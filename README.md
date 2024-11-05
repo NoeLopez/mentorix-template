@@ -1,9 +1,6 @@
 <p align="center">
-  <a href="https://xpedition.utp.edu.pe/" target="blank"><img src="https://xpedition.utp.edu.pe/wp-content/themes/xpedition/img/logo.png" width="210" alt="Nest Logo" /></a>
+  <a href="https://xpedition.utp.edu.pe/" target="blank"><img src="https://xpedition.utp.edu.pe/wp-content/themes/xpedition/img/logo.png" width="210" alt="Xpedition URT" /></a>
 </p>
-
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
 
   <p align="center">Mentorix a progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
